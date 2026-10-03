@@ -1,0 +1,10 @@
+:root { color-scheme: light; font-family: system-ui, sans-serif; color: #182866; background: #f5f7fa; }
+* { box-sizing: border-box; }
+html, body { margin: 0; width: 100%; height: 100%; overflow: hidden; }
+#app { display: block; border: 0; width: 100%; height: 100vh; height: 100dvh; visibility: hidden; }
+body.ready #app { visibility: visible; }
+#loading { position: fixed; inset: 0; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 24px; text-align: center; }
+body.ready #loading { display: none; }
+#loading h1 { font-size: 20px; margin: 20px 0 0; }
+#load-state { margin: 12px 0 24px; }
+a { color: #182866; text-underline-offset: 4px; padding: 12px; }

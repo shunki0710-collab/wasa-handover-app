@@ -9,4 +9,8 @@
   document.getElementById('original-open').href = target.href;
   const standalone = navigator.standalone === true || window.matchMedia('(display-mode: standalone)').matches;
   if (params.get('install') !== '1' || standalone) window.location.replace(target.href);
+  else {
+    document.body.classList.add('install-ready');
+    document.getElementById('loading').hidden = false;
+  }
 })();

@@ -1,4 +1,5 @@
-:root { color-scheme: light; font-family: system-ui, sans-serif; color: #182866; background: #f5f7fa; }
+:root { color-scheme: light; font-family: system-ui, sans-serif; color: #182866; background: #fff; }
+body.install-ready { background: #f5f7fa; }
 * { box-sizing: border-box; }
 html, body { margin: 0; min-height: 100%; }
 #loading { display: flex; flex-direction: column; justify-content: center; align-items: center; min-height: 100vh; min-height: 100dvh; max-width: 560px; margin: auto; padding: 24px; text-align: center; }

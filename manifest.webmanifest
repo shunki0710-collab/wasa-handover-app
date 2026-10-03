@@ -3,7 +3,7 @@
   "name": "WASA 天文プロジェクト 引継ぎ書",
   "short_name": "WASA 引継ぎ書",
   "lang": "ja",
-  "start_url": "./",
+  "start_url": "./?install=1",
   "scope": "./",
   "display": "standalone",
   "background_color": "#f5f7fa",

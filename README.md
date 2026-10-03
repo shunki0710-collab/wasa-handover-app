@@ -1,11 +1,12 @@
-# WASA 引継ぎ書の専用入口
+# WASA アイコン追加と自動移動
 
-公開URL：https://shunki0710-collab.github.io/wasa-handover-app/
+アイコン追加用URL：https://shunki0710-collab.github.io/wasa-handover-app/?install=1
+起動用URL：https://shunki0710-collab.github.io/wasa-handover-app/
 
-iPhone/iPadはSafariで開き、共有メニューから「ホーム画面に追加」。AndroidはChromeで「ホーム画面に追加」またはインストール。PCはChromeの「ページをアプリとしてインストール」を使います。
+追加用ページをSafari/Chromeで開き、ホーム画面に追加またはアプリとしてインストールします。iPhoneは表示される場合に「ウェブアプリとして開く」をオンにしてください。
 
-このリポジトリには入口ページ・manifest・アイコンだけを置き、本文や認証情報は置きません。データと編集・閲覧の認証は既存のGoogle Apps Scriptを使います。アプリストア配布・オフライン閲覧は提供していません。
+追加したアイコンから起動するとApps Scriptへ自動で移動します。通常の起動用URLも自動で移動します。追加用ページでは手動の「Apps Scriptを開く」リンクも使えます。ブラウザと端末によって移動先は通常ブラウザや移動先URL付きの画面で開きます。
 
-アイコンはWASA天文プロジェクトのロゴを参考に、月・流れ星・天文とWASAの文字を残して軽くデフォルメした画像です。
+GitHubにはアイコン・manifest・移動用の入口・READMEだけを置きます。本文と認証は既存Apps Scriptを使います。埋め込み画面、オフライン閲覧、アプリストア配布は提供していません。
 
-実装の正本は非公開のWASAサイトプロジェクト内の `app/launcher/`。この8つの公開ファイルとREADMEだけを専用リポジトリへコピーします。Apps Script側の公開は別途claspで行います。変更時は両方の公開を確認してください。
+2026-10-03：埋め込み式から自動移動式へ変更。アイコンとアプリIDは保持。
